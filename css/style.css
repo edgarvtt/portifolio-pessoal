@@ -1,0 +1,11 @@
+@import './global.mim.css';
+@import './header.mim.css';
+@import './intro.mim.css';
+@import './experience.mim.css';
+@import './project.mim.css';
+@import './footer.mim.css';
+
+body {
+    /* background-image: url('../img/introducao.png');*/
+    background-repeat: repeat;
+}

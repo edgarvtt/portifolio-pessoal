@@ -1,0 +1,40 @@
+@import './global.mim.css';
+@import './header.mim.css';
+@import './intro.mim.css';
+@import './experience.mim.css';
+@import './project.mim.css';
+@import './footer.mim.css';
+
+body {
+    background-image: url('../img/introducao.png');
+    background-repeat: repeat;
+}
+
+.button {
+    background: #ED99F2;
+}
+
+.button:hover {
+    background: #ffffff;
+}
+
+.button a {
+    color: #000000;
+}
+
+@media (max-width:800px) {
+    .button {
+        background-color: #FB8AF4;
+    }
+}
+
+@media (max-width:545px) {
+
+    #original {
+        display: none;
+    }
+
+    .header a {
+        font-size: 10px;
+    }
+}

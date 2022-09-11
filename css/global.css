@@ -1,0 +1,41 @@
+body {
+    background: #FFFFFF;
+    font-family: system-ui, Arial, sans-serif;
+    color: #141414;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.title {
+
+    font-size: 8rem;
+    word-break: break-all;
+    max-width: 5ch;
+}
+
+
+@media (max-width:800px) {
+
+    .title {
+        font-size: 3rem;
+        text-transform: capitalize;
+        max-width: initial !important;
+    }
+}
